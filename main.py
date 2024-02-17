@@ -2,13 +2,13 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df=pd.read_csv("D:/University/3rd Year/2nd Semester/ST3082 Statistical Learning/Project APP/pythonProject/mydata.csv")
-df1=pd.read_csv("D:/University/3rd Year/2nd Semester/ST3082 Statistical Learning/Project APP/pythonProject/mydata.csv")
-Y=df['actual_productivity']
-df=df.drop(columns=['actual_productivity','date_num', 'date','team'], axis=1)
-df=pd.get_dummies(df, columns=['department', 'day','quarter'])
-print(df.columns)
-print(Y)
+#df=pd.read_csv("D:/University/3rd Year/2nd Semester/ST3082 Statistical Learning/Project APP/pythonProject/mydata.csv")
+#df1=pd.read_csv("D:/University/3rd Year/2nd Semester/ST3082 Statistical Learning/Project APP/pythonProject/mydata.csv")
+#Y=df['actual_productivity']
+#df=df.drop(columns=['actual_productivity','date_num', 'date','team'], axis=1)
+#df=pd.get_dummies(df, columns=['department', 'day','quarter'])
+#print(df.columns)
+#print(Y)
 
 #Stream Lit Components
 st.title("Garment Worker Productivty Prediction")
